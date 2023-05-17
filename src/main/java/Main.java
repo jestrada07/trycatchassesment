@@ -21,6 +21,7 @@ public class Main {
 
                 int result = numerator / denominator;
                 System.out.println("result is " + result);
+                break;
 
             } catch (ArithmeticException e) {
                 System.out.println("you can't divide by zero");
